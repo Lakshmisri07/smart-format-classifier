@@ -1,0 +1,9 @@
+From: john.doe@example.com
+Subject: Request for quote on new laptops
+
+Hi,
+
+Please send me a quotation for 10 new laptops as soon as possible.
+
+Thanks,
+John

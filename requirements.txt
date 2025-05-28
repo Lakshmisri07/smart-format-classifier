@@ -1,0 +1,8 @@
+openai
+pdfplumber
+redis
+python-dotenv
+transformers
+torch
+filetype
+jsonschema

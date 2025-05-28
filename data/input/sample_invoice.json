@@ -1,0 +1,6 @@
+{
+  "invoice_id": "INV12345",
+  "date": "2024-05-01",
+  "amount": 1000.50,
+  "customer": "ABC Pvt Ltd"
+}
