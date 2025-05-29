@@ -1,0 +1,39 @@
+[
+    {
+        "agent": "EmailAgent",
+        "source": "john.doe@example.com",
+        "type": "Email",
+        "timestamp": "2025-05-29T13:13:17.900385",
+        "thread_id": "09b499ba-b385-4f1f-955a-f44a86643c6d",
+        "extracted_values": {
+            "sender": "john.doe@example.com",
+            "intent": "RFQ",
+            "urgency": "Medium"
+        },
+        "status": "Success"
+    },
+    {
+        "agent": "JSONAgent",
+        "source": "data/input/sample_invoice.json",
+        "type": "JSON",
+        "timestamp": "2025-05-29T13:13:47.280716",
+        "thread_id": "1a10b36a-c1b0-46b9-86e8-49cc38bd4301",
+        "extracted_values": {
+            "invoice_id": "INV12345",
+            "amount": 1000.5,
+            "date": "2024-05-01",
+            "customer": "ABC Pvt Ltd"
+        },
+        "missing_fields": [],
+        "status": "Success"
+    },
+    {
+        "agent": "PDFAgent",
+        "intent": "Other",
+        "preview": "...",
+        "status": "Success",
+        "source": "data/input/sample_invoice.pdf",
+        "timestamp": "2025-05-29T13:14:14.818695",
+        "thread_id": "2839409c-ad46-440a-92f7-b430c761c249"
+    }
+]
