@@ -50,13 +50,9 @@ sample_email.txt: Plain text email content demonstrating typical email input.
 
 sample_output_screenshots: this folder contains Screenshots showing the system output in the console or logs during processing.
 
-## 🎥 Demo Video
+## Demo Video
 
 ▶️ [Click here to watch the demo](https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link)
-
-Or view a preview below:
-
-[![Watch Demo](outputs/sample_screenshot.png)](https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link)
 
 Conclusion:
 Smart Format Classifier provides a scalable and intelligent framework for processing diverse input types in automated workflows. By combining modular agent-based design with a shared memory context, it enables accurate format and intent classification, efficient data routing, and traceable multi-agent collaboration. The system is ideal for use cases in business automation, document processing, and AI-driven communication management.
