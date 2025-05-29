@@ -1,56 +1,10 @@
 [
     {
-        "source": "data/input/sample_email.txt",
-        "type": "Email",
-        "intent": "RFQ",
-        "timestamp": "2025-05-28T20:26:50.109617"
-    },
-    {
-        "agent": "EmailAgent",
-        "status": "Processed",
-        "extracted": {
-            "sender": "supplier@example.com",
-            "urgency": "Normal",
-            "intent": "Unknown",
-            "content": "From: supplier@example.com\nSubject: Request for Quotation\n\nDear team,\nPlease send us a quotation for the attached parts list.\nRegards,\nSupplier Co.\n"
-        },
-        "timestamp": "2025-05-28T20:26:50.113716"
-    },
-    {
-        "source": "data/input/sample_invoice.json",
-        "type": "JSON",
-        "intent": "Invoice",
-        "timestamp": "2025-05-28T20:27:21.624491"
-    },
-    {
-        "agent": "JSONAgent",
-        "status": "Valid",
-        "extracted": {
-            "invoice_id": "INV12345",
-            "date": "2024-05-01",
-            "amount": 1000.5,
-            "customer": "ABC Pvt Ltd"
-        },
-        "timestamp": "2025-05-28T20:27:21.642382"
-    },
-    {
-        "source": "data/input/sample_invoice.pdf",
-        "type": "PDF",
-        "intent": "Unknown",
-        "timestamp": "2025-05-28T21:14:07.269566"
-    },
-    {
-        "agent": "PDFAgent",
-        "source": "data/input/sample_invoice.pdf",
-        "status": "Failed - No /Root object! - Is this really a PDF?",
-        "timestamp": "2025-05-28T21:14:07.284001"
-    },
-    {
         "agent": "EmailAgent",
         "source": "john.doe@example.com",
         "type": "Email",
-        "timestamp": "2025-05-28T22:14:09.420809",
-        "thread_id": "f3e2c863-d25d-4e81-b651-ed36de1f6fd9",
+        "timestamp": "2025-05-29T12:29:37.540298",
+        "thread_id": "7eb16f41-e155-42fb-a831-b47707d876f1",
         "extracted_values": {
             "sender": "john.doe@example.com",
             "intent": "RFQ",
@@ -61,45 +15,8 @@
     {
         "agent": "PDFAgent",
         "source": "data/input/sample_invoice.pdf",
-        "status": "Failed - EOF marker not found",
-        "timestamp": "2025-05-28T22:26:32.081999",
-        "thread_id": "02e14268-bc0e-40b6-a00b-31c01f23dee7"
-    },
-    {
-        "agent": "JSONAgent",
-        "source": "data/input/sample_invoice.json",
-        "type": "JSON",
-        "timestamp": "2025-05-28T22:26:58.818355",
-        "thread_id": "456a8f6c-9f4c-46ed-a046-33c777b37eda",
-        "extracted_values": {
-            "invoice_id": "INV12345",
-            "amount": 1000.5,
-            "date": "2024-05-01",
-            "customer": "ABC Pvt Ltd"
-        },
-        "missing_fields": [],
-        "status": "Success"
-    },
-    {
-        "agent": "EmailAgent",
-        "source": "john.doe@example.com",
-        "type": "Email",
-        "timestamp": "2025-05-28T22:27:29.524019",
-        "thread_id": "2d333497-0f40-4afe-83ba-1a65677572ad",
-        "extracted_values": {
-            "sender": "john.doe@example.com",
-            "intent": "RFQ",
-            "urgency": "Medium"
-        },
-        "status": "Success"
-    },
-    {
-        "agent": "PDFAgent",
-        "intent": "Other",
-        "preview": "...",
-        "status": "Success",
-        "source": "data/input/sample_invoice.pdf",
-        "timestamp": "2025-05-28T22:30:37.107430",
-        "thread_id": "c69fc1d7-97fe-4e02-9aae-83b5b0849d4e"
+        "status": "Failed - [Errno 2] No such file or directory: 'data/input/sample_invoice.pdf'",
+        "timestamp": "2025-05-29T12:30:13.645000",
+        "thread_id": "34dea24a-e7e3-4de6-812c-641af83da85d"
     }
 ]
