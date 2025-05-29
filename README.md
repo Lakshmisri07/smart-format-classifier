@@ -1,4 +1,4 @@
- SMART-FORMAT-CLASSIFIER :
+ SMART-FORMAT-CLASSIFIER 
  
   Smart Format Classifier is a modular, multi-agent AI system designed to intelligently process and classify input data in PDF, JSON, or Email (text) formats. By automatically detecting both the format and intent of incoming content, it ensures accurate routing to specialized agents for further processing. This solution addresses real-world challenges in document understanding and automation by maintaining contextual memory for traceability and multi-stage workflows.
 
