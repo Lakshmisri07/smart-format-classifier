@@ -1,0 +1,48 @@
+<students>
+<student id="S001">
+<name>
+<firstName>John</firstName>
+<lastName>Doe</lastName>
+</name>
+<age>20</age>
+<address>
+<street>123 Main St</street>
+<city>Springfield</city>
+<state>IL</state>
+<zip>62704</zip>
+</address>
+<courses>
+<course>Mathematics</course>
+<course>Physics</course>
+<course>Computer Science</course>
+</courses>
+<grades>
+<grade>A</grade>
+<grade>B+</grade>
+<grade>A-</grade>
+</grades>
+</student>
+<student id="S002">
+<name>
+<firstName>Jane</firstName>
+<lastName>Smith</lastName>
+</name>
+<age>22</age>
+<address>
+<street>456 Elm St</street>
+<city>Hometown</city>
+<state>CA</state>
+<zip>90210</zip>
+</address>
+<courses>
+<course>Biology</course>
+<course>Chemistry</course>
+<course>English</course>
+</courses>
+<grades>
+<grade>B</grade>
+<grade>A</grade>
+<grade>A-</grade>
+</grades>
+</student>
+</students>
