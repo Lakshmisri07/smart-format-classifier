@@ -15,6 +15,43 @@ LLM Integration: Supports integration with OpenAI or open-source LLMs for intent
 Memory Management: Incorporates Redis, SQLite, or an in-memory store to maintain shared context accessible across agents.
 Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each responsible for specific input types and workflows.
 
-Conclusion:
+folder structure
+```
+smart-format-classifier/
+├── agents/
+│   ├── classifier_agent.py
+│   ├── email_agent.py
+│   ├── json_agent.py
+│   └── pdf_agent.py
+├── data/
+│   ├── input/
+│   │   ├── sample_email.txt
+│   │   ├── sample_invoice.json
+│   │   └── sample_invoice.pdf
+│   └── output/
+│       ├── logs.json
+│       └── sample_output_screenshots       
+├── memory/
+│   └── shared_memory.db
+├── utils/
+│   └── file_loader.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── demo.mp4
+```
+## Sample Input Files
 
+sample_invoice.pdf: A PDF file representing an invoice document.  
+sample_request.json: A JSON file simulating a structured request like an RFQ.  
+sample_email.txt: Plain text email content demonstrating typical email input.
+
+## Sample Output Screenshots
+
+sample_output_screenshots: this folder contains Screenshots showing the system output in the console or logs during processing.
+
+## Demo Video
+Watch the demo here:https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link
+
+Conclusion:
 Smart Format Classifier provides a scalable and intelligent framework for processing diverse input types in automated workflows. By combining modular agent-based design with a shared memory context, it enables accurate format and intent classification, efficient data routing, and traceable multi-agent collaboration. The system is ideal for use cases in business automation, document processing, and AI-driven communication management.
