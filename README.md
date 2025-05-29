@@ -15,29 +15,30 @@ LLM Integration: Supports integration with OpenAI or open-source LLMs for intent
 Memory Management: Incorporates Redis, SQLite, or an in-memory store to maintain shared context accessible across agents.
 Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each responsible for specific input types and workflows.
 
-## folder Structure
-smart-format-classifier/
-├── agents/
-│ ├── classifier_agent.py
-│ ├── email_agent.py
-│ ├── json_agent.py
-│ └── pdf_agent.py
-├── data/
-│ ├── input/
-│ │ ├── sample_email.txt
-│ │ ├── sample_invoice.json
-│ │ └── sample_invoice.pdf
-│ └── output/
-│ ├── logs.json
-│ └── other_output_files
-├── memory/
-│ └── shared_memory.db
-├── utils/
-│ └── file_loader.py
-├── main.py
-├── requirements.txt
-├── README.md
-└── demo.mp4
+## folder Structur
+smart-format-classifier
+| 
+|--agents
+|    |--classifier_agent.py
+|    |--email_agent.py
+|    |--json_agent.py
+|    |--pdf_agent.py
+|--data
+|    |--input
+|    |   |--sample_email.txt
+|    |   |--sample_invoice.json
+|    |   |--sample_invoice.pdf 
+|    |--output
+|        |--logs.json
+|        |--sample_screenshot.png
+|--memory
+|    |--shared_memory.db
+|--utils
+|    |--file_loader.py
+|--README.md
+|--demo.mp4
+|--main.py
+|--requirements.txt
 
 ## Sample Input Files
 
@@ -45,9 +46,8 @@ sample_invoice.pdf: A PDF file representing an invoice document.
 sample_request.json: A JSON file simulating a structured request like an RFQ.  
 sample_email.txt: Plain text email content demonstrating typical email input.
 
-## Sample Output Logs / Screenshots
+## Sample Output Screenshots
 
-sample_output_log.txt: Contains example logs showing format and intent classification results and agent processing details.  
 sample_screenshot.png: Screenshot showing the system output in the console or logs during processing.
 
 ## Demo Video
