@@ -35,5 +35,57 @@
             "urgency": "Medium"
         },
         "status": "Success"
+    },
+    {
+        "agent": "EmailAgent",
+        "source": "john.doe@example.com",
+        "type": "Email",
+        "timestamp": "2025-05-29T16:11:51.508459",
+        "thread_id": "10dbd04d-3377-41ce-a96e-d0a3b0ed4737",
+        "extracted_values": {
+            "sender": "john.doe@example.com",
+            "intent": "RFQ",
+            "urgency": "Medium"
+        },
+        "status": "Success"
+    },
+    {
+        "agent": "JSONAgent",
+        "source": "data/input/sample_invoice.json",
+        "type": "JSON",
+        "timestamp": "2025-05-29T16:13:34.135433",
+        "thread_id": "feae2532-b9bd-40eb-a154-2a891ed25d01",
+        "extracted_values": {
+            "invoice_id": "INV12345",
+            "amount": 1000.5,
+            "date": "2024-05-01",
+            "customer": "ABC Pvt Ltd"
+        },
+        "missing_fields": [],
+        "status": "Success"
+    },
+    {
+        "agent": "JSONAgent",
+        "source": "data/input/sample_invoice.json",
+        "type": "JSON",
+        "timestamp": "2025-05-29T16:13:59.543656",
+        "thread_id": "8259be0d-c2f0-4663-ba09-b2f26b8f4ce8",
+        "extracted_values": {
+            "invoice_id": "INV12345",
+            "amount": 1000.5,
+            "date": "2024-05-01",
+            "customer": "ABC Pvt Ltd"
+        },
+        "missing_fields": [],
+        "status": "Success"
+    },
+    {
+        "agent": "PDFAgent",
+        "intent": "Invoice",
+        "preview": "Invoice\n \nInvoice\n \nNumber:\n \nINV-1001\n \n \nDate:\n \nMay\n \n29,\n \n2025\n \nBill\n \nTo:\n \n \nJohn\n \nDoe\n \n \n123\n \nMain\n \nStreet\n \n \nSpringfield,\n \nUSA\n \nItems\n \nPurchased:\n \n\u25cf\n \nLaptop,\n \nQuantity:\n \n1,\n \nPri...",
+        "status": "Success",
+        "source": "data/input/sample_invoice.pdf",
+        "timestamp": "2025-05-29T16:15:37.921604",
+        "thread_id": "5f3319cd-6b31-4941-86f6-e568757add45"
     }
 ]
