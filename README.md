@@ -15,7 +15,30 @@ LLM Integration: Supports integration with OpenAI or open-source LLMs for intent
 Memory Management: Incorporates Redis, SQLite, or an in-memory store to maintain shared context accessible across agents.
 Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each responsible for specific input types and workflows.
 
-## Folder Structure ``` smart-format-classifier/ ├── agents/ │ ├── classifier_agent.py │ ├── email_agent.py │ ├── json_agent.py │ └── pdf_agent.py ├── data/ │ ├── input/ │ │ ├── sample_email.txt │ │ ├── sample_invoice.json │ │ └── sample_invoice.pdf │ └── output/ │ ├── logs.json │ └── other_output_files ├── memory/ │ └── shared_memory.db ├── utils/ │ └── file_loader.py ├── main.py ├── requirements.txt ├── README.md └── demo.mp4 ```
+##folder structure
+smart-format-classifier/
+├── agents/
+│   ├── classifier_agent.py
+│   ├── email_agent.py
+│   ├── json_agent.py
+│   └── pdf_agent.py
+├── data/
+│   ├── input/
+│   │   ├── sample_email.txt
+│   │   ├── sample_invoice.json
+│   │   └── sample_invoice.pdf
+│   └── output/
+│       ├── logs.json
+│       └── other_output_files
+├── memory/
+│   └── shared_memory.db
+├── utils/
+│   └── file_loader.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── demo.mp4
+
 ## Sample Input Files
 
 sample_invoice.pdf: A PDF file representing an invoice document.  
