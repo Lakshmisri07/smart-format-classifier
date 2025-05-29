@@ -30,7 +30,7 @@ smart-format-classifier/
 │   │   └── sample_invoice.pdf
 │   └── output/
 │       ├── logs.json
-│       └── sample_screenshot.png
+│       └── sample_output_screenshots       
 ├── memory/
 │   └── shared_memory.db
 ├── utils/
@@ -48,7 +48,7 @@ sample_email.txt: Plain text email content demonstrating typical email input.
 
 ## Sample Output Screenshots
 
-sample_screenshot.png: Screenshot showing the system output in the console or logs during processing.
+sample_output_screenshots: this folder contains Screenshots showing the system output in the console or logs during processing.
 
 ## Demo Video
 Watch the demo here:https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link
