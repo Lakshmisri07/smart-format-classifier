@@ -17,7 +17,7 @@ Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each res
 
 ## folder Structur
 smart-format-classifier
-| 
+
 |--agents
 |    |--classifier_agent.py
 |    |--email_agent.py
