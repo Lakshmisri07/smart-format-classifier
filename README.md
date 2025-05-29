@@ -15,7 +15,7 @@ LLM Integration: Supports integration with OpenAI or open-source LLMs for intent
 Memory Management: Incorporates Redis, SQLite, or an in-memory store to maintain shared context accessible across agents.
 Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each responsible for specific input types and workflows.
 
-##folder structure
+folder structure
 ```
 smart-format-classifier/
 ├── agents/
@@ -30,7 +30,7 @@ smart-format-classifier/
 │   │   └── sample_invoice.pdf
 │   └── output/
 │       ├── logs.json
-│       └── other_output_files
+│       └── sample_screenshot.png
 ├── memory/
 │   └── shared_memory.db
 ├── utils/
