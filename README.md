@@ -16,6 +16,7 @@ Memory Management: Incorporates Redis, SQLite, or an in-memory store to maintain
 Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each responsible for specific input types and workflows.
 
 ##folder structure
+```
 smart-format-classifier/
 ├── agents/
 │   ├── classifier_agent.py
@@ -38,7 +39,7 @@ smart-format-classifier/
 ├── requirements.txt
 ├── README.md
 └── demo.mp4
-
+```
 ## Sample Input Files
 
 sample_invoice.pdf: A PDF file representing an invoice document.  
