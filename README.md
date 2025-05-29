@@ -40,17 +40,17 @@ smart-format-classifier/
 ├── README.md
 └── demo.mp4
 ```
-## Sample Input Files
+ Sample Input Files
 
 sample_invoice.pdf: A PDF file representing an invoice document.  
 sample_request.json: A JSON file simulating a structured request like an RFQ.  
 sample_email.txt: Plain text email content demonstrating typical email input.
 
-## Sample Output Screenshots
+ Sample Output Screenshots
 
 sample_output_screenshots: this folder contains Screenshots showing the system output in the console or logs during processing.
 
-## Demo Video
+ Demo Video
 
 ▶️ [Click here to watch the demo](https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link)
 
