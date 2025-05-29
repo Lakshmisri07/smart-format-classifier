@@ -17,48 +17,27 @@ Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each res
 
 ## folder Structure
 smart-format-classifier/
-
-   agents/     
-   
-│   ├── classifier_agent.py
-
-│   ├── email_agent.py
-
-│   ├── json_agent.py
-
-│   └── pdf_agent.py
-
-├── data/       
-
-│   ├── input/
-
-│   │   ├── sample_email.txt
-
-│   │   ├── sample_invoice.json
-
-│   │   └── sample_invoice.pdf
-
-│   └── output/
-
-│       ├── logs.json
-
-│       └── other_output_files
-
-├── memory/            
-
-│   └── shared_memory.db
-
-├── utils/           
-
-│   └── file_loader.py
-
-├── main.py                
-
+├── agents/
+│ ├── classifier_agent.py
+│ ├── email_agent.py
+│ ├── json_agent.py
+│ └── pdf_agent.py
+├── data/
+│ ├── input/
+│ │ ├── sample_email.txt
+│ │ ├── sample_invoice.json
+│ │ └── sample_invoice.pdf
+│ └── output/
+│ ├── logs.json
+│ └── other_output_files
+├── memory/
+│ └── shared_memory.db
+├── utils/
+│ └── file_loader.py
+├── main.py
 ├── requirements.txt
-
 ├── README.md
-
-└── demo.mp4   
+└── demo.mp4
 
 ## Sample Input Files
 
