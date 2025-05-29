@@ -35,5 +35,28 @@
         "source": "data/input/sample_invoice.pdf",
         "timestamp": "2025-05-29T13:14:14.818695",
         "thread_id": "2839409c-ad46-440a-92f7-b430c761c249"
+    },
+    {
+        "agent": "PDFAgent",
+        "source": "data/input/sample_invoice.pdf",
+        "status": "Failed - EOF marker not found",
+        "timestamp": "2025-05-29T14:10:02.182752",
+        "thread_id": "071ca1c9-9aac-4c8c-9a03-deff53e569c8"
+    },
+    {
+        "agent": "PDFAgent",
+        "source": "data/input/sample_pdf.pdf",
+        "status": "Failed - EOF marker not found",
+        "timestamp": "2025-05-29T14:18:02.263928",
+        "thread_id": "be8b57eb-da6c-446c-ae10-89905f7272d4"
+    },
+    {
+        "agent": "PDFAgent",
+        "intent": "Invoice",
+        "preview": "Invoice\n \nInvoice\n \nNumber:\n \nINV-1001\n \n \nDate:\n \nMay\n \n29,\n \n2025\n \nBill\n \nTo:\n \n \nJohn\n \nDoe\n \n \n123\n \nMain\n \nStreet\n \n \nSpringfield,\n \nUSA\n \nItems\n \nPurchased:\n \n\u25cf\n \nLaptop,\n \nQuantity:\n \n1,\n \nPri...",
+        "status": "Success",
+        "source": "data/input/sample_invoice.pdf",
+        "timestamp": "2025-05-29T14:24:39.182868",
+        "thread_id": "107ea8b8-56b4-4508-8dbd-3d15db6c2d23"
     }
 ]
