@@ -1,23 +1,19 @@
 [
     {
-        "agent": "EmailAgent",
-        "source": "john.doe@example.com",
-        "type": "Email",
-        "timestamp": "2025-05-29T13:13:17.900385",
-        "thread_id": "09b499ba-b385-4f1f-955a-f44a86643c6d",
-        "extracted_values": {
-            "sender": "john.doe@example.com",
-            "intent": "RFQ",
-            "urgency": "Medium"
-        },
-        "status": "Success"
+        "agent": "PDFAgent",
+        "intent": "Invoice",
+        "preview": "Invoice\n \nInvoice\n \nNumber:\n \nINV-1001\n \n \nDate:\n \nMay\n \n29,\n \n2025\n \nBill\n \nTo:\n \n \nJohn\n \nDoe\n \n \n123\n \nMain\n \nStreet\n \n \nSpringfield,\n \nUSA\n \nItems\n \nPurchased:\n \n\u25cf\n \nLaptop,\n \nQuantity:\n \n1,\n \nPri...",
+        "status": "Success",
+        "source": "data/input/sample_invoice.pdf",
+        "timestamp": "2025-05-29T14:28:50.016699",
+        "thread_id": "d242d671-561b-4abc-8294-9b9013f78b3a"
     },
     {
         "agent": "JSONAgent",
         "source": "data/input/sample_invoice.json",
         "type": "JSON",
-        "timestamp": "2025-05-29T13:13:47.280716",
-        "thread_id": "1a10b36a-c1b0-46b9-86e8-49cc38bd4301",
+        "timestamp": "2025-05-29T14:29:07.149690",
+        "thread_id": "ce5e2c9d-13d2-4332-91a3-01cc5d3e3617",
         "extracted_values": {
             "invoice_id": "INV12345",
             "amount": 1000.5,
@@ -28,35 +24,16 @@
         "status": "Success"
     },
     {
-        "agent": "PDFAgent",
-        "intent": "Other",
-        "preview": "...",
-        "status": "Success",
-        "source": "data/input/sample_invoice.pdf",
-        "timestamp": "2025-05-29T13:14:14.818695",
-        "thread_id": "2839409c-ad46-440a-92f7-b430c761c249"
-    },
-    {
-        "agent": "PDFAgent",
-        "source": "data/input/sample_invoice.pdf",
-        "status": "Failed - EOF marker not found",
-        "timestamp": "2025-05-29T14:10:02.182752",
-        "thread_id": "071ca1c9-9aac-4c8c-9a03-deff53e569c8"
-    },
-    {
-        "agent": "PDFAgent",
-        "source": "data/input/sample_pdf.pdf",
-        "status": "Failed - EOF marker not found",
-        "timestamp": "2025-05-29T14:18:02.263928",
-        "thread_id": "be8b57eb-da6c-446c-ae10-89905f7272d4"
-    },
-    {
-        "agent": "PDFAgent",
-        "intent": "Invoice",
-        "preview": "Invoice\n \nInvoice\n \nNumber:\n \nINV-1001\n \n \nDate:\n \nMay\n \n29,\n \n2025\n \nBill\n \nTo:\n \n \nJohn\n \nDoe\n \n \n123\n \nMain\n \nStreet\n \n \nSpringfield,\n \nUSA\n \nItems\n \nPurchased:\n \n\u25cf\n \nLaptop,\n \nQuantity:\n \n1,\n \nPri...",
-        "status": "Success",
-        "source": "data/input/sample_invoice.pdf",
-        "timestamp": "2025-05-29T14:24:39.182868",
-        "thread_id": "107ea8b8-56b4-4508-8dbd-3d15db6c2d23"
+        "agent": "EmailAgent",
+        "source": "john.doe@example.com",
+        "type": "Email",
+        "timestamp": "2025-05-29T14:29:27.024325",
+        "thread_id": "3808990c-0024-41a3-89f2-453571cbb78f",
+        "extracted_values": {
+            "sender": "john.doe@example.com",
+            "intent": "RFQ",
+            "urgency": "Medium"
+        },
+        "status": "Success"
     }
 ]
