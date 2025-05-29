@@ -18,3 +18,7 @@ Modular Agents: Includes Classifier Agent, JSON Agent, and Email Agent, each res
 Conclusion:
 
 Smart Format Classifier provides a scalable and intelligent framework for processing diverse input types in automated workflows. By combining modular agent-based design with a shared memory context, it enables accurate format and intent classification, efficient data routing, and traceable multi-agent collaboration. The system is ideal for use cases in business automation, document processing, and AI-driven communication management.
+
+## Demo Video
+Watch the demo here:https://drive.google.com/file/d/1uonjDEVX-ZjW6U1bapqQK6ba8TNR-uiY/view?usp=drive_link
+
